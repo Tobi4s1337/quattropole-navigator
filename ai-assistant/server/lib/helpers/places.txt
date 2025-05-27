@@ -1,0 +1,44 @@
+# Places in Saarbrücken
+# Format: type|name
+
+# Shops
+shop|Europa Galerie
+shop|Saar Galerie
+shop|Bahnhof Arkaden
+shop|Globus Güdingen
+shop|Naturkost St. Arnual
+shop|Fairtrade Saarbrücken
+shop|Feinkost Metzger
+shop|St. Johanner Markt Shops
+
+# Gastronomy 
+gastronomy|Cafe Kostbar
+gastronomy|Stiefel Bräu
+gastronomy|Pizzeria San Marino
+gastronomy|Zum Stiefel
+gastronomy|Flieten Franz
+gastronomy|L'Osteria
+gastronomy|Alex Restaurant
+gastronomy|Himalaya Restaurant
+gastronomy|Five Guys
+gastronomy|Kaisergarten
+
+# Sightseeing
+sightseeing|Ludwigskirche
+sightseeing|Schloss Saarbrücken
+sightseeing|Deutsch-Französischer Garten
+sightseeing|Historisches Museum Saar
+sightseeing|Moderne Galerie
+sightseeing|St. Johanner Markt
+sightseeing|Saarbrücker Altstadt
+sightseeing|Rathaus St. Johann
+sightseeing|Staatstheater Saarbrücken
+sightseeing|Saarlandhallen
+
+# Parking
+parking|Parkhaus Bahnhof
+parking|Parkhaus Rathaus
+parking|Parkhaus St. Johanner Markt
+parking|Parkhaus Europa Galerie
+parking|Parkhaus Saar Galerie
+parking|Parkhaus Staatstheater 

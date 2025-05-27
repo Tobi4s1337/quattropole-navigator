@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Saarbrücker Schloss",
+    "category": [
+      "Historisches Gebäude",
+      "Museum"
+    ],
+    "contact": {
+      "phone": "0681 506-6006",
+      "email": "touristinfo@rvsbr.de",
+      "web_contact_form": true
+    },
+    "address": "Schlossplatz 1-15 66119 Saarbrücken",
+    "opening_hours": {
+      "Tourist Info": {
+        "Montag bis Freitag": "09:00 - 17:00",
+        "Samstag, Sonntag, Feiertage (Nov - Mär)": "10:00 - 16:30",
+        "Samstag, Sonntag, Feiertage (Apr - Okt)": "10:00 - 18:00",
+        "Geschlossen": [
+          "Karfreitag",
+          "Allerheiligen"
+        ]
+      }
+    },
+    "websites": [
+      "https://www.regionalverband-saarbruecken.de/kultur-tourismus/tourist-info",
+      "https://www.saarbruecker-schloss.de/"
+    ],
+    "description": "Ursprünglich eine Burg (999) später Renaissanceschloss. Beherbergt Historisches Museum Saar. Tolle Aussicht.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2023/07/104342_x1200_y600_ff3b44_07.jpg"
+    ],
+    "location": {
+      "latitude": 49.2301124,
+      "longitude": 6.9925119
+    }
+  },
+  {
+    "name": "Ludwigskirche",
+    "category": [
+      "Kirche",
+      "Barockbauwerk"
+    ],
+    "contact": {
+      "phone": "0681-52524",
+      "email": "saarbruecken-mitte@ekir.de",
+      "web_contact_form": false
+    },
+    "address": "Am Ludwigsplatz 11 66111 Saarbrücken",
+    "opening_hours": {
+      "Hinweise": [
+        "Täglich für Besucher geöffnet meist 11/12-17 Uhr (außer bei Veranstaltungen). Gruppenanmeldung nötig."
+      ]
+    },
+    "websites": [
+      "https://www.ludwigskirche.de/"
+    ],
+    "description": "Bedeutende ev. Barockkirche (18. Jh. von Stengel) Wahrzeichen Saarbrückens. Regelmäßige Konzerte.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2023/01/99282_x1200_y600_b216ca_01.jpg"
+    ],
+    "location": {
+      "latitude": 49.2322777,
+      "longitude": 6.9859523
+    }
+  },
+  {
+    "name": "Moderne Galerie (Saarlandmuseum)",
+    "category": [
+      "Museum",
+      "Kunstgalerie"
+    ],
+    "contact": {
+      "phone": "0681 99640",
+      "email": "info@kulturbesitz.de",
+      "web_contact_form": false
+    },
+    "address": "Bismarckstraße 11-15 66111 Saarbrücken",
+    "opening_hours": {
+      "Di-So": "10:00 - 18:00",
+      "Mi": "10:00 - 20:00",
+      "Hinweise": [
+        "Mo geschlossen. Di ab 15 Uhr & 1. So/Monat Eintritt frei."
+      ]
+    },
+    "websites": [
+      "https://www.modernegalerie.org/de/ihr-besuch",
+      "https://tourismus.saarbruecken.de/besuchen/museen_galerien/moderne_galerie"
+    ],
+    "description": "Kunst vom 19. Jh. bis Gegenwart. Schwerpunkte: Impressionismus Expressionismus Informel.",
+    "images": [
+      "https://www.modernegalerie.org/fileadmin/_processed_/9/f/csm_MoGa_Header_3d03bf576b.jpg"
+    ],
+    "location": {
+      "latitude": 49.2301859,
+      "longitude": 7.000097
+    }
+  },
+  {
+    "name": "Deutsch-Französischer Garten",
+    "category": [
+      "Park",
+      "Gartenanlage"
+    ],
+    "contact": {
+      "phone": "+49 681 905-2159",
+      "email": null,
+      "web_contact_form": false
+    },
+    "address": "Deutschmühlental 66117 Saarbrücken",
+    "opening_hours": {
+      "Hinweise": [
+        "Park zugänglich",
+        "Toilettenanlagen tägl. ab 8 Uhr mit saisonal variierenden Schließzeiten."
+      ]
+    },
+    "websites": [
+      "https://www.saarbruecken.de/leben_in_saarbruecken/freizeit/deutsch_franzoesischer_garten",
+      "https://www.urlaub.saarland/attraktion/deutsch-franzoesischer-garten-103738a0df"
+    ],
+    "description": "Ca. 50 Hektar großer Landschaftspark Symbol d-fr Freundschaft (1960). Blumengärten Themengärten Kleinbahn.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2019/10/72495_x1200_y598_dc648d_10.jpg"
+    ],
+    "location": {
+      "latitude": 49.2331564,
+      "longitude": 6.962389
+    }
+  },
+  {
+    "name": "Basilika St. Johann",
+    "category": [
+      "Kirche",
+      "Barockbauwerk"
+    ],
+    "contact": {
+      "phone": "+49 681 32964",
+      "email": null,
+      "web_contact_form": false
+    },
+    "address": "Katholisch-Kirch-Straße 66111 Saarbrücken (Nähe St. Johanner Markt)",
+    "opening_hours": {
+      "Hinweise": [
+        "Tagsüber geöffnet außer während Gottesdiensten (genaue Zeiten nicht gefunden)."
+      ]
+    },
+    "websites": [
+      "Nicht direkt gefunden (Pfarrei/Bistum suchen)"
+    ],
+    "description": "Barocke Kirche (Stengel 1754-58). Verzierter Eingang Bronzeportal drei Orgeln. Herz des St. Johanner Marktes.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2020/12/81996_x1200_y600_4912a1_12.jpg"
+    ],
+    "location": null
+  },
+  {
+    "name": "Alte Brücke",
+    "category": [
+      "Historisches Bauwerk",
+      "Brücke"
+    ],
+    "contact": null,
+    "address": "Über die Saar zwischen Alt-Saarbrücken und St. Johann",
+    "opening_hours": {
+      "Hinweise": [
+        "Jederzeit zugänglich"
+      ]
+    },
+    "websites": [],
+    "description": "Älteste erhaltene Brücke ihrer Art im Saarland (1546 von Kaiser Karl V.). Fußgängerbrücke.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2023/08/104861_x1200_y599_556545_08.jpg"
+    ],
+    "location": null
+  },
+  {
+    "name": "Rathaus St. Johann",
+    "category": [
+      "Historisches Gebäude",
+      "Öffentliches Gebäude"
+    ],
+    "contact": {
+      "phone": "+49 681 95909-200",
+      "email": "tourist.info@city-sb.de",
+      "web_contact_form": false
+    },
+    "address": "Rathausplatz 1 66111 Saarbrücken",
+    "opening_hours": {
+      "Hinweise": [
+        "Turmbesteigung zu bestimmten Zeiten möglich (Details aktuell erfragen)",
+        "Gebäude öffentl. Bereiche während Amtsstunden."
+      ]
+    },
+    "websites": [
+      "https://www.saarbruecken.de/"
+    ],
+    "description": "Neugotischer Stil (1897-1900 Hauberrisser). 54m hoher Turm mit Aussicht.",
+    "images": [
+      "https://tourismus.saarbruecken.de/cache/media/attachments/2020/05/77374_x1200_y599_3bfc85_05.jpg"
+    ],
+    "location": {
+      "latitude": 49.2344301,
+      "longitude": 6.995535
+    }
+  }
+]

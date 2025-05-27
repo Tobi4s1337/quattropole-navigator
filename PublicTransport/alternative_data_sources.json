@@ -1,0 +1,72 @@
+{
+  "generated": "2025-05-24T13:19:46.240659",
+  "title": "Alternative Datenquellen für ÖPNV Trier",
+  "description": "Übersicht über verfügbare OpenData-Quellen für öffentliche Verkehrsdaten in Trier",
+  "categories": {
+    "regional": [
+      {
+        "name": "VRT",
+        "url": "https://www.vrt-info.de/",
+        "type": "GTFS/API"
+      },
+      {
+        "name": "Stadtwerke Trier",
+        "url": "https://www.swt.de/",
+        "type": "Fahrpläne"
+      },
+      {
+        "name": "OpenData RLP",
+        "url": "https://daten.rlp.de/",
+        "type": "Regional"
+      }
+    ],
+    "national": [
+      {
+        "name": "mCloud",
+        "url": "https://www.mcloud.de/",
+        "type": "GTFS/API"
+      },
+      {
+        "name": "GovData",
+        "url": "https://www.govdata.de/",
+        "type": "Behördendaten"
+      },
+      {
+        "name": "GTFS.de",
+        "url": "https://gtfs.de/",
+        "type": "GTFS"
+      }
+    ],
+    "international": [
+      {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/",
+        "type": "Geodaten"
+      },
+      {
+        "name": "Transitland",
+        "url": "https://www.transit.land/",
+        "type": "GTFS"
+      },
+      {
+        "name": "EU Open Data",
+        "url": "https://data.europa.eu/",
+        "type": "EU-Daten"
+      }
+    ]
+  },
+  "implementation_status": {
+    "completed": [
+      "OpenStreetMap via Overpass API"
+    ],
+    "recommended_next": [
+      "VRT GTFS Feed",
+      "mCloud API",
+      "SWT Echtzeitdaten"
+    ],
+    "future": [
+      "EU INSPIRE Services",
+      "Real-time APIs"
+    ]
+  }
+}

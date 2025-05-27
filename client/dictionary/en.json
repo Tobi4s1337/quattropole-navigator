@@ -1,0 +1,394 @@
+{
+  "Index": {
+    "boilerplateName": "QuattroPole Navigator",
+    "title": "QuattroPole Navigator",
+    "welcomeTitle": "Welcome to QuattroPole Navigator!",
+    "welcomeSubtitle": "Discover the best of Luxembourg, Trier, Metz, and Saarbrücken. Select a city below to start your exploration and find information on shopping, sightseeing, events, transport, and more.",
+    "description": "A powerful starting point for your next multilingual, accessible web application.",
+    "cloneRepository": "Clone Repository",
+    "leaveStar": "Leave a Star",
+    "howToUse": "How to Use",
+    "gettingStarted": "Getting Started",
+    "installation": "Installation",
+    "howToContribute": "How to Contribute",
+    "omitrtlUsage": "OmitRTL Usage",
+    "OmitRTLInstruction": "To use OmitRTL, simply wrap the component you want to omit RTL support for with the OmitRTL component.",
+    "contribute": "Contribute",
+    "installationSteps": {
+      "cloneRepository": "Clone the repository:",
+      "installDependencies": "Install dependencies:",
+      "startDevServer": "Start the development server:"
+    },
+    "contributeSteps": {
+      "fork": "Fork the repository",
+      "createBranch": "Create a new branch:",
+      "commit": "Commit your changes:",
+      "push": "Push to the branch:",
+      "pullRequest": "Create a new Pull Request"
+    },
+    "error": {
+      "server": "Internal Server Error",
+      "sorry": "Sorry, we encountered an unexpected issue on our server.",
+      "tryAgain": " Try again later.",
+      "returnHome": "Return home"
+    }
+  },
+  "Header": {
+    "siteTitle": "Quattropole Navigator"
+  },
+  "Cities": {
+    "luxembourg": "Luxembourg",
+    "luxembourgDescription": "Experience a vibrant blend of medieval history and modern European dynamism.",
+    "trier": "Trier",
+    "trierDescription": "Explore Germany's oldest city, rich in Roman heritage and Moselle River charm.",
+    "metz": "Metz",
+    "metzDescription": "Discover a city of golden stone, stunning stained glass, and French art de vivre.",
+    "saarbruecken": "Saarbrücken",
+    "saarbrueckenDescription": "Enjoy a lively university city offering Franco-German culture and industrial heritage."
+  },
+  "IndexPage": {
+    "exploreCity": "Explore {cityName}",
+    "selectCityTitle": "Select a City to Explore",
+    "noCitiesAvailable": "No cities are currently available for exploration.",
+    "welcomeTitle": "Your Gateway to the Quattropole Region",
+    "welcomeSubtitle": "Discover shopping, sightseeing, events, transport and more in Luxembourg, Trier, Metz, and Saarbrücken. Select your destination and start exploring today.",
+    "discoverAndExplore": "Discover & Explore",
+    "exploreCityLinkText": "Explore now"
+  },
+  "Footer": {
+    "copyright": "© {year} {siteName}. All rights reserved.",
+    "githubLink": "GitHub"
+  },
+  "Metadata": {
+    "title": "Next.js i18n Template - Multilingual Starter Template",
+    "description": "Next.js internationalization (i18n) starter kit with Arabic, Chinese, English, Spanish, and Japanese support. Includes shadcn UI, theme switching, and RTL support.",
+    "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support",
+    "metaShoppingTitle": "Shop in {cityName} - Directory of Stores, Boutiques & Malls | QuattroPole Navigator",
+    "metaShoppingDescription": "Find the best places to shop in {cityName}. Explore a wide range of stores, from fashion boutiques to local markets and large shopping malls. Your ultimate shopping guide."
+  },
+  "CityExplorePage": {
+    "metaTitle": "Explore {cityName} - Your Guide to Shopping, Events & Sights | Quattropole Navigator",
+    "metaDescription": "Discover the best of {cityName}. Find information on shopping, gastronomy, upcoming events, and top sightseeing attractions in {cityName}.",
+    "metaTitleNotFound": "City Not Found | Quattropole Navigator",
+    "metaDescriptionNotFound": "The city you are looking for could not be found. Please check the URL or navigate back to the homepage.",
+    "title": "Explore {cityName}",
+    "subtitle": "Your adventure in the heart of the city starts here.",
+    "pageHint": "Currently exploring {cityName}. Use the sections below to find events and sightseeing spots.",
+    "eventsSectionTitle": "Current & Upcoming Events in {cityName}",
+    "eventsSectionSubtitle": "Stay updated with the latest happenings and plan your visit.",
+    "sightsSectionTitle": "Must-See Attractions in {cityName}",
+    "sightsSectionSubtitle": "Discover iconic landmarks and hidden gems.",
+    "shoppingSectionTitle": "Retail Therapy in {cityName}",
+    "shoppingSectionSubtitle": "Explore boutiques, markets, and unique local shops.",
+    "gastronomySectionTitle": "Taste the Flavors of {cityName}",
+    "gastronomySectionSubtitle": "Discover culinary delights from local eateries to fine dining.",
+    "viewAllEvents": "View All Events",
+    "viewAllSights": "Discover All Attractions",
+    "viewAllShops": "Browse All Shops",
+    "viewAllRestaurants": "Explore All Dining",
+    "HeroSection": {
+      "backgroundImageAlt": "Background image of {cityName}",
+      "videoBackgroundAlt": "Video background of {cityName}",
+      "videoPosterAlt": "Preview image of {cityName} panorama",
+      "videoNotSupported": "Your browser does not support the video tag.",
+      "title": "Your {cityName} Adventure Awaits",
+      "subtitle": "What are you looking for today? Find the best spots for shopping, dining, events, and sightseeing, or let AI plan your trip!",
+      "selectCategoryPlaceholder": "Select a category",
+      "searchPlaceholder": "Search for places, food, events...",
+      "searchButton": "Search",
+      "selectedCategoryDebug": "Filters for",
+      "searchModeToggle": {
+        "categorySearch": "Explore by Type",
+        "aiPlanner": "AI Trip Planner"
+      },
+      "aiPlanner": {
+        "sectionTitle": "AI Trip Planner",
+        "promptPlaceholder": "Describe your ideal trip, e.g., 'A romantic weekend with historical sights and fine dining'",
+        "generateButton": "Generate Trip Plan"
+      },
+      "accessibilityMode": {
+        "toggleLabel": "Accessibility Options",
+        "dropdownTitle": "Select Accessibility Needs"
+      }
+    },
+    "Saarbruecken": {
+      "Events": {
+        "event1": {
+          "name": "Saarbrücken Summer Festival",
+          "description": "A vibrant celebration of music, art, and culture in the heart of the city.",
+          "date": "August 15-20, 2024"
+        },
+        "event2": {
+          "name": "Franco-German Food Market",
+          "description": "Experience the culinary delights from both sides of the border at this popular market.",
+          "date": "June 24-26, 2024"
+        },
+        "event3": {
+          "name": "Jazz at the Castle",
+          "description": "Enjoy fantastic jazz performances with the stunning Saarbrücken Castle as backdrop.",
+          "date": "July 10, 2024"
+        }
+      },
+      "Sights": {
+        "sight1": {
+          "name": "Saarbrücken Castle",
+          "description": "The restored baroque castle offers insight into the region's history with its fascinating museum.",
+          "address": "Schlossplatz 1-3, 66119 Saarbrücken"
+        },
+        "sight2": {
+          "name": "Ludwigskirche",
+          "description": "One of Germany's most important Protestant baroque churches with its impressive architecture.",
+          "address": "Ludwigsplatz, 66117 Saarbrücken"
+        },
+        "sight3": {
+          "name": "Deutsch-Französischer Garten",
+          "description": "A beautiful park symbolizing Franco-German friendship with landscaped gardens and recreational facilities.",
+          "address": "Großherzog-Friedrich-Straße, 66121 Saarbrücken"
+        }
+      },
+      "Shopping": {
+        "shop1": {
+          "name": "Europa Galerie",
+          "description": "Large shopping mall with over 110 international brands, boutiques, and a diverse food court.",
+          "address": "Trierer Str. 1, 66111 Saarbrücken",
+          "hours": "Mon-Sat: 10:00 AM - 8:00 PM"
+        },
+        "shop2": {
+          "name": "Bücher König",
+          "description": "Cozy independent bookstore with a wide selection of literature, stationery, and a charming reading corner with coffee.",
+          "address": "St. Johanner Markt 26, 66111 Saarbrücken",
+          "hours": "Mon-Fri: 9:00 AM - 7:00 PM, Sat: 9:00 AM - 6:00 PM" 
+        },
+        "shop3": {
+          "name": "Saarbasar Electronics",
+          "description": "Electronics superstore offering the latest gadgets, computers, home appliances, and professional tech advice.",
+          "address": "Breslauer Str. 1a, 66121 Saarbrücken",
+          "hours": "Mon-Fri: 10:00 AM - 8:00 PM, Sat: 9:00 AM - 8:00 PM"
+        },
+        "shop4": {
+          "name": "Mode Palast",
+          "description": "Upscale boutique featuring designer clothing, accessories, and personal styling services.",
+          "address": "Bahnhofstraße 38, 66111 Saarbrücken",
+          "hours": "Mon-Sat: 10:00 AM - 7:00 PM"
+        }
+      },
+      "Gastronomy": {
+        "gastro1": {
+          "name": "Restaurant Staden",
+          "description": "Fine dining with beautiful views of the Saar river, offering modern European cuisine with locally sourced ingredients.",
+          "address": "Am Staden 13, 66121 Saarbrücken"
+        },
+        "gastro2": {
+          "name": "Café Kostbar",
+          "description": "Popular café known for its delicious homemade cakes, organic coffee, and relaxed bohemian atmosphere.",
+          "address": "Nauwieserstraße 19, 66111 Saarbrücken"
+        },
+        "gastro3": {
+          "name": "Garage Saarbrücken",
+          "description": "Trendy bar and event location with creative cocktails, craft beers, and regular live music performances.",
+          "address": "Bleichstraße 11-15, 66111 Saarbrücken"
+        },
+        "gastro4": {
+          "name": "Ristorante Bellini",
+          "description": "Authentic Italian restaurant serving traditional pasta, pizza, and seafood dishes in a romantic setting.",
+          "address": "Mainzer Str. 22, 66121 Saarbrücken"
+        }
+      }
+    }
+  },
+  "SearchCategories": {
+    "shopping": "Shopping",
+    "gastronomy": "Gastronomy",
+    "events": "Events",
+    "sightseeing": "Sightseeing"
+  },
+  "Filters": {
+    "Shopping": {
+      "fashion": "Fashion & Apparel",
+      "clothing": "Clothing",
+      "shoes": "Shoes",
+      "accessories": "Accessories",
+      "electronics": "Electronics",
+      "books": "Books & Stationery",
+      "homegoods": "Home Goods"
+    },
+    "Gastronomy": {
+      "restaurants": "Restaurants",
+      "cafes": "Cafés & Bistros",
+      "bars": "Bars & Pubs",
+      "bakeries": "Bakeries"
+    },
+    "Events": {
+      "music": "Music & Concerts",
+      "festivals": "Festivals",
+      "markets": "Markets",
+      "sports": "Sports Events"
+    },
+    "Sightseeing": {
+      "historical": "Historical Sites",
+      "museums": "Museums",
+      "parks": "Parks & Gardens",
+      "churches": "Churches & Cathedrals"
+    },
+    "Districts": {
+      "villeHaute": "Ville-Haute",
+      "gare": "Gare",
+      "kirchberg": "Kirchberg",
+      "stJohann": "St. Johann",
+      "altSaarbruecken": "Alt-Saarbrücken"
+    },
+    "OpeningDays": {
+      "title": "Open on",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "Labels": {
+      "title": "Label(s)",
+      "madeInLuxembourg": "Made in Luxembourg",
+      "organic": "Organic",
+      "fairTrade": "Fair Trade"
+    },
+    "Services": {
+      "title": "Service(s)",
+      "clickAndCollect": "Click and Collect",
+      "homeDelivery": "Home Delivery",
+      "personalShopper": "Personal Shopper",
+      "taxFree": "Tax-Free Shopping",
+      "giftCards": "Vouchers/Gift Cards",
+      "accessible": "Accessible for persons with reduced mobility",
+      "toilets": "Toilets"
+    },
+    "PaymentMethods": {
+      "title": "Accepted payment method(s)",
+      "amex": "American Express",
+      "cash": "Cash",
+      "digicash": "Digicash",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "visa": "Visa",
+      "vpay": "V pay"
+    },
+    "SortOptions": {
+      "title": "Sort by",
+      "relevance": "Relevance",
+      "nameAsc": "Name (A-Z)",
+      "nameDesc": "Name (Z-A)"
+    },
+    "Actions": {
+      "applyFilters": "Apply Filters",
+      "resetFilters": "Reset Filters",
+      "showResults": "Show {count} results"
+    }
+  },
+  "Events": {
+    "date": "Date: {date}",
+    "time": "Time: {time}",
+    "location": "Location: {location}",
+    "category": "Category: {category}",
+    "noEvents": "No upcoming events found",
+    "viewEvent": "View Event Details",
+    "joinEvent": "Join Event",
+    "freeEvent": "Free Event",
+    "paidEvent": "Tickets from {price}"
+  },
+  "Sightseeing": {
+    "openingHours": "Opening Hours: {hours}",
+    "admissionFee": "Admission: {fee}",
+    "location": "Location: {location}",
+    "category": "Category: {category}",
+    "free": "Free Admission",
+    "visitWebsite": "Visit Website",
+    "getDirections": "Get Directions"
+  },
+  "Common": {
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "General": {
+    "viewDetails": "View Details",
+    "viewMenuOrBook": "View Menu / Book Table",
+    "noShoppingItems": "No shopping locations found for this city yet. Check back soon!",
+    "noGastronomyItems": "No restaurants or cafes found for this city yet. Check back soon!"
+  },
+  "Gastronomy": {
+    "reservationsRecommended": "Reservations Recommended",
+    "walkInsWelcome": "Walk-ins Welcome"
+  },
+  "Cuisine": {
+    "european": "European",
+    "cafe": "Café & Bistro",
+    "bar": "Bar & Lounge",
+    "italian": "Italian"
+  },
+  "CategoryFilterTabs": {
+    "Events": "Events",
+    "Sightseeing": "Sightseeing"
+  },
+  "AccessibilityNeeds": {
+    "wheelchairAccessible": "Wheelchair Accessible",
+    "brailleSupport": "Braille Support",
+    "assistanceDogFriendly": "Assistance Dog Friendly"
+  },
+  "IslandNavbar": {
+    "logoText": "QuattroPole Navigator",
+    "navEvents": "Events",
+    "navAttractions": "Attractions",
+    "navShopping": "Shopping",
+    "navGastronomy": "Gastronomy",
+    "ctaPlanTrip": "Plan Trip",
+    "backToCities": "All Cities",
+    "exploreSection": "Explore",
+    "cityDropdown": {
+      "ariaLabel": "City selector dropdown",
+      "selectCity": "Switch City",
+      "currentCity": "Currently exploring",
+      "switchTo": "Switch to another city"
+    }
+  },
+  "ShoppingListingPage": {
+    "title": "Explore Shops in {cityName}",
+    "searchPlaceholder": "Search shops, brands, products...",
+    "noResults": "No shops found matching your criteria. Try adjusting your filters or search term.",
+    "mapView": "Map View",
+    "listView": "List View",
+    "filtersTitle": "Filters",
+    "shopTypesTitle": "Shop type(s)",
+    "districtsTitle": "District",
+    "openingDaysTitle": "Open on",
+    "servicesTitle": "Service(s)",
+    "paymentMethodsTitle": "Accepted payment method(s)",
+    "labelsTitle": "Label(s)"
+  },
+  "shared": {
+    "someKey": "Some Value",
+    "contactMethods": {
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website"
+    },
+    "socialMedia": {
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    }
+  },
+  "StoreDetailsPage": {
+    "metaTitle": "{storeName} - Details",
+    "metaDescription": "Find out more about {storeName}: {shortDescription}",
+    "metaTitleNotFound": "Store Not Found",
+    "metaDescriptionNotFound": "The store details you are looking for could not be found.",
+    "contactInfo": {
+      "title": "Contact & Information",
+      "contactTitle": "Get in Touch",
+      "paymentMethodsTitle": "We Accept"
+    }
+  }
+}

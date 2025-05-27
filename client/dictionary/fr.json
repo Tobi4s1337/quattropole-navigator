@@ -1,0 +1,126 @@
+{
+    "Index": {
+      "boilerplateName": "QuattroPole Navigator",
+      "title": "QuattroPole Navigator",
+      "welcomeTitle": "Welcome to QuattroPole Navigator!",
+      "welcomeSubtitle": "Discover the best of Luxembourg, Trier, Metz, and Saarbrücken. Select a city below to start your exploration and find information on shopping, sightseeing, events, transport, and more.",
+      "description": "A powerful starting point for your next multilingual, accessible web application.",
+      "cloneRepository": "Clone Repository",
+      "leaveStar": "Leave a Star",
+      "howToUse": "How to Use",
+      "gettingStarted": "Getting Started",
+      "installation": "Installation",
+      "howToContribute": "How to Contribute",
+      "omitrtlUsage": "OmitRTL Usage",
+      "OmitRTLInstruction": "To use OmitRTL, simply wrap the component you want to omit RTL support for with the OmitRTL component.",
+      "contribute": "Contribute",
+      "installationSteps": {
+        "cloneRepository": "Clone the repository:",
+        "installDependencies": "Install dependencies:",
+        "startDevServer": "Start the development server:"
+      },
+      "contributeSteps": {
+        "fork": "Fork the repository",
+        "createBranch": "Create a new branch:",
+        "commit": "Commit your changes:",
+        "push": "Push to the branch:",
+        "pullRequest": "Create a new Pull Request"
+      },
+      "error": {
+        "server": "Internal Server Error",
+        "sorry": "Sorry, we encountered an unexpected issue on our server.",
+        "tryAgain": " Try again later.",
+        "returnHome": "Return home"
+      }
+    },
+    "Header": {
+      "siteTitle": "QuattroPole Navigator"
+    },
+    "Cities": {
+      "luxembourg": "Luxembourg",
+      "luxembourgDescription": "Experience a vibrant blend of medieval history and modern European dynamism.",
+      "trier": "Trier",
+      "trierDescription": "Explore Germany's oldest city, rich in Roman heritage and Moselle River charm.",
+      "metz": "Metz",
+      "metzDescription": "Discover a city of golden stone, stunning stained glass, and French art de vivre.",
+      "saarbruecken": "Saarbrücken",
+      "saarbrueckenDescription": "Enjoy a lively university city offering Franco-German culture and industrial heritage."
+    },
+    "IndexPage": {
+      "exploreCity": "Explore {cityName}",
+      "selectCityTitle": "Select a City to Explore",
+      "noCitiesAvailable": "No cities are currently available for exploration.",
+      "welcomeTitle": "Your Gateway to the Quattropole Region",
+      "welcomeSubtitle": "Discover shopping, sightseeing, events, transport and more in Luxembourg, Trier, Metz, and Saarbrücken. Select your destination and start exploring today.",
+      "discoverAndExplore": "Discover & Explore",
+      "exploreCityLinkText": "Explore now"
+    },
+    "Footer": {
+      "copyright": "© {year} {siteName}. All rights reserved.",
+      "githubLink": "GitHub"
+    },
+    "Metadata": {
+      "title": "Next.js i18n Template - Multilingual Starter Template",
+      "description": "Next.js internationalization (i18n) starter kit with Arabic, Chinese, English, Spanish, and Japanese support. Includes shadcn UI, theme switching, and RTL support.",
+      "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
+    },
+    "CityExplorePage": {
+      "metaTitle": "Explore {cityName} - Your Guide to Shopping, Events & Sights | QuattroPole Navigator",
+      "metaDescription": "Discover the best of {cityName}. Find information on shopping, gastronomy, upcoming events, and top sightseeing attractions in {cityName}.",
+      "metaTitleNotFound": "City Not Found | QuattroPole Navigator",
+      "metaDescriptionNotFound": "The city you are looking for could not be found. Please check the URL or navigate back to the homepage.",
+      "title": "Explore {cityName}",
+      "subtitle": "Your adventure in the heart of the city starts here.",
+      "pageHint": "Currently exploring {cityName}. Use the sections below to find events and sightseeing spots.",
+      "eventsSectionTitle": "Current & Upcoming Events in {cityName}",
+      "eventsSectionSubtitle": "Stay updated with the latest happenings and plan your visit.",
+      "sightsSectionTitle": "Must-See Attractions in {cityName}",
+      "sightsSectionSubtitle": "Discover iconic landmarks and hidden gems.",
+      "HeroSection": {
+        "backgroundImageAlt": "Panoramic view of {cityName}",
+        "title": "Your {cityName} Adventure Awaits",
+        "subtitle": "What are you looking for today? Find the best spots for shopping, dining, events, and sightseeing.",
+        "selectCategoryPlaceholder": "Select a category...",
+        "searchPlaceholder": "Search for places, events, or keywords...",
+        "searchButton": "Search",
+        "selectedCategoryDebug": "Filters for"
+      }
+    },
+    "SearchCategories": {
+      "shopping": "Shopping",
+      "gastronomy": "Gastronomy",
+      "events": "Events",
+      "sightseeing": "Sightseeing"
+    },
+    "Filters": {
+      "Shopping": {
+        "fashion": "Fashion & Apparel",
+        "electronics": "Electronics",
+        "books": "Books & Stationery",
+        "homegoods": "Home Goods"
+      },
+      "Gastronomy": {
+        "restaurants": "Restaurants",
+        "cafes": "Cafés & Bistros",
+        "bars": "Bars & Pubs",
+        "bakeries": "Bakeries"
+      },
+      "Events": {
+        "music": "Music & Concerts",
+        "festivals": "Festivals",
+        "markets": "Markets",
+        "sports": "Sports Events"
+      },
+      "Sightseeing": {
+        "historical": "Historical Sites",
+        "museums": "Museums",
+        "parks": "Parks & Gardens",
+        "churches": "Churches & Cathedrals"
+      }
+    },
+    "Common": {
+      "learnMore": "Learn More",
+      "viewDetails": "View Details"
+    }
+  }
+  

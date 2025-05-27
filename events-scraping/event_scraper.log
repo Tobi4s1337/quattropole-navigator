@@ -1,0 +1,319 @@
+2025-05-25 12:51:48,414 [INFO] Scrapy 2.8.0 started (bot: scrapybot)
+2025-05-25 12:51:48,427 [INFO] Versions: lxml 4.9.3.0, libxml2 2.10.4, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.10.0, Python 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ], pyOpenSSL 23.2.0 (OpenSSL 3.0.10 1 Aug 2023), cryptography 41.0.3, Platform macOS-15.4.1-arm64-arm-64bit
+2025-05-25 12:51:48,429 [INFO] Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'AUTOTHROTTLE_START_DELAY': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'LOG_LEVEL': 'INFO',
+ 'ROBOTSTXT_OBEY': True,
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+2025-05-25 12:51:48,431 [WARNING] /Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/utils/request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2025-05-25 12:51:48,432 [DEBUG] Using reactor: twisted.internet.selectreactor.SelectReactor
+2025-05-25 12:51:48,441 [INFO] Telnet Password: 556fab6c69a0c785
+2025-05-25 12:51:48,451 [INFO] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-05-25 12:51:48,453 [INFO] Spider initialized to fetch events from 2025-06-01 to 2029-12-31
+2025-05-25 12:51:48,453 [INFO] Initial start URL: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31
+2025-05-25 12:51:48,550 [INFO] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-05-25 12:51:48,552 [INFO] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-05-25 12:51:48,553 [INFO] Enabled item pipelines:
+[]
+2025-05-25 12:51:48,553 [INFO] Spider opened
+2025-05-25 12:51:48,633 [INFO] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-05-25 12:51:48,634 [INFO] Telnet console listening on 127.0.0.1:6023
+2025-05-25 12:51:48,733 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/robots.txt> (referer: None)
+2025-05-25 12:51:50,982 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31> (referer: None)
+2025-05-25 12:51:51,093 [INFO] Parsing list page: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31
+2025-05-25 12:51:51,106 [INFO] Found 25 events on this page
+2025-05-25 12:51:51,107 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768571
+2025-05-25 12:51:51,109 [INFO] Extracted event: 3. Tier & Naturschutztag, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6819ec8f04c27/date-783847
+2025-05-25 12:51:51,110 [INFO] Extracted event: Gladiatoren, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-665735468646d/date-705463
+2025-05-25 12:51:51,111 [INFO] Extracted event: Illegal. Street Art Graffiti 1960 – 1995, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65c761e9206df/date-764797
+2025-05-25 12:51:51,111 [INFO] Extracted event: Wildpflanzen-Wanderung, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6458cf99bd088/date-777331
+2025-05-25 12:51:51,112 [INFO] Extracted event: Willi Graf, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-66643beeb18a8/date-739528
+2025-05-25 12:51:51,112 [INFO] Extracted event: 8. Matinée – Lied der Nacht, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-670886a6a1bd5/date-742496
+2025-05-25 12:51:51,113 [INFO] Extracted event: Führungen für Kinder mit dem Schlossgespenst, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-62b2c2362f983/date-773004
+2025-05-25 12:51:51,114 [INFO] Extracted event: Musikfestspiele Saar "Einheit, Vielfalt und Freiheit", URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65cca3770b3d2/date-785590
+2025-05-25 12:51:51,114 [INFO] Extracted event: Nordic Walking, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67698112d987d/date-756542
+2025-05-25 12:51:51,115 [INFO] Extracted event: Plitsch! (ab 4 Jahren), URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d82419d9c54/date-784135
+2025-05-25 12:51:51,115 [INFO] Extracted event: Tage der offenen Tür am Bunker der Fördergruppe Bunker WH 316, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6818bec7d06f0/date-783790
+2025-05-25 12:51:51,116 [INFO] Extracted event: Tischtennis: Final 4 Champions League Turnier 2025, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67eb48ab9c635/date-779747
+2025-05-25 12:51:51,116 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768916
+2025-05-25 12:51:51,117 [INFO] Extracted event: Offene Führung im DFG, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-60d46aa00dd51/date-779117
+2025-05-25 12:51:51,117 [INFO] Extracted event: Fütterung der Seehunde, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb86cb78408/date-769246
+2025-05-25 12:51:51,118 [INFO] Extracted event: Musik ist Frieden für die Seele - Lerne die „Bağlama“ kennen, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-651289fc59093/date-783316
+2025-05-25 12:51:51,118 [INFO] Extracted event: Plitsch! (ab 4 Jahren), URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d82419d9c54/date-779922
+2025-05-25 12:51:51,119 [INFO] Extracted event: Familienkonzert "Peer Gynt", URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682b063dc78e8/date-785288
+2025-05-25 12:51:51,122 [INFO] Extracted event: Vernissage ’15 Jahre Augenblick‘, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6818830816ead/date-783512
+2025-05-25 12:51:51,123 [INFO] Extracted event: Hoffmanns Erzählungen "Les Contes d'Hoffmann", URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67ecdf6ce6ea1/date-779092
+2025-05-25 12:51:51,123 [INFO] Extracted event: Sein Kopf wurde verschleppt von einem gewaltigen Traum, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67efb75a65b4a/date-779366
+2025-05-25 12:51:51,124 [INFO] Extracted event: Quattropole Swing Exchange, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6422e69fde2b9/date-770233
+2025-05-25 12:51:51,124 [INFO] Extracted event: Toleranz in Comics & Graphic Novels, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6787c47aabc43/date-760887
+2025-05-25 12:51:51,125 [INFO] Extracted event: Wochenmarkt St. Johann, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-5d4d179fdd6db/date-778159
+2025-05-25 12:51:51,125 [INFO] Found next page: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25
+2025-05-25 12:51:52,095 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768571> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:51:53,203 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:51:53,220 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '01.06.2025 - 09:00 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:51:54,039 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682b063dc78e8/date-785288> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:51:55,146 [INFO] Parsing detail page for event: Familienkonzert "Peer Gynt"
+2025-05-25 12:51:55,151 [INFO] Completed event data: {'Name': 'Familienkonzert "Peer Gynt"', 'Art': 'Konzert', 'Ort': 'Christkönig-Kirche\nPräsident-Baltz-Str. 6\n66119 Saarbrücken\nChristkönig-Kirche\nPräsident-Baltz-Str. 6\n66119 Saarbrücken', 'Datum': '01.06.2025 - 17:00 Uhr', 'Telefon': '', 'Website': 'https://forms.gle/dFFt5b5HQhdTdEPV9'}
+2025-05-25 12:51:55,986 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d82419d9c54/date-779922> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:51:57,093 [INFO] Parsing detail page for event: Plitsch! (ab 4 Jahren)
+2025-05-25 12:51:57,096 [INFO] Completed event data: {'Name': 'Plitsch! (ab 4 Jahren)', 'Art': 'Theater', 'Ort': 'überzwerg – Theater am Kästnerplatz\nErich-Kästner-Platz 1\n66119 Saarbrücken\nüberzwerg – Theater am Kästnerplatz\nErich-Kästner-Platz 1\n66119 Saarbrücken', 'Datum': '01.06.2025 - 15:00 Uhr', 'Telefon': '+49 681 958283-0', 'Website': 'https://ueberzwerg.de/stuecke/plitsch/'}
+2025-05-25 12:51:57,099 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-651289fc59093/date-783316> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:51:58,208 [INFO] Parsing detail page for event: Musik ist Frieden für die Seele - Lerne die „Bağlama“ kennen
+2025-05-25 12:51:58,216 [INFO] Completed event data: {'Name': 'Musik ist Frieden für die Seele - Lerne die „Bağlama“ kennen', 'Art': 'Seminar / Workshop', 'Ort': 'Kultur- und Lesetreff Malstatt\nIm Knappenroth  2-4\n66113 Saarbrücken\nKultur- und Lesetreff Malstatt\nIm Knappenroth  2-4\n66113 Saarbrücken', 'Datum': '01.06.2025 - 15:00 Uhr', 'Telefon': '+49 681 905 6419', 'Website': 'https://www.saarbruecken.de/kultur/kultur_und_lesetreffs/kultur_und_lesetreff_malstatt'}
+2025-05-25 12:51:59,261 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb86cb78408/date-769246> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:00,365 [INFO] Parsing detail page for event: Fütterung der Seehunde
+2025-05-25 12:52:00,372 [INFO] Completed event data: {'Name': 'Fütterung der Seehunde', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '01.06.2025 - 15:00 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:01,337 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-60d46aa00dd51/date-779117> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:02,444 [INFO] Parsing detail page for event: Offene Führung im DFG
+2025-05-25 12:52:02,453 [INFO] Completed event data: {'Name': 'Offene Führung im DFG', 'Art': 'Exkursion / Führung', 'Ort': 'Deutsch-Französischer Garten\nDeutschmühlental\n66117 Saarbrücken\nDeutsch-Französischer Garten\nDeutschmühlental\n66117 Saarbrücken', 'Datum': '01.06.2025 - 14:30 Uhr', 'Telefon': '+49 681 905-2159', 'Website': 'http://www.saarbruecken.de/dfg'}
+2025-05-25 12:52:03,451 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768916> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:04,560 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:52:04,575 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '01.06.2025 - 14:30 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:05,404 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67eb48ab9c635/date-779747> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:06,510 [INFO] Parsing detail page for event: Tischtennis: Final 4 Champions League Turnier 2025
+2025-05-25 12:52:06,516 [INFO] Completed event data: {'Name': 'Tischtennis: Final 4 Champions League Turnier 2025', 'Art': 'Sport', 'Ort': 'Saarlandhalle\nAn der Saarlandhalle 1\n66113 Saarbrücken\nSaarlandhalle\nAn der Saarlandhalle 1\n66113 Saarbrücken', 'Datum': '01.06.2025 - 14:00 Uhr bis 01.06.2025 - 19:00 Uhr', 'Telefon': '+49 681 4180-0', 'Website': 'https://www.ccsaar.de/events/tischtennis-final-4-champions-league-turnier-2025/'}
+2025-05-25 12:52:06,630 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6818bec7d06f0/date-783790> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:07,736 [INFO] Parsing detail page for event: Tage der offenen Tür am Bunker der Fördergruppe Bunker WH 316
+2025-05-25 12:52:07,741 [INFO] Completed event data: {'Name': 'Tage der offenen Tür am Bunker der Fördergruppe Bunker WH 316', 'Art': 'Information', 'Ort': 'Bunker WH 316\nStummstr.\n66130 Saarbrücken-Brebach\nBunker WH 316\nStummstr.\n66130 Saarbrücken-Brebach', 'Datum': '01.06.2025 - 11:00 Uhr bis 01.06.2025 - 17:00 Uhr', 'Telefon': '', 'Website': 'https://bunker-wh-316.de/'}
+2025-05-25 12:52:08,581 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d82419d9c54/date-784135> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:09,686 [INFO] Parsing detail page for event: Plitsch! (ab 4 Jahren)
+2025-05-25 12:52:09,694 [INFO] Completed event data: {'Name': 'Plitsch! (ab 4 Jahren)', 'Art': 'Theater', 'Ort': 'überzwerg – Theater am Kästnerplatz\nErich-Kästner-Platz 1\n66119 Saarbrücken\nüberzwerg – Theater am Kästnerplatz\nErich-Kästner-Platz 1\n66119 Saarbrücken', 'Datum': '01.06.2025 - 11:00 Uhr', 'Telefon': '+49 681 958283-0', 'Website': 'https://ueberzwerg.de/stuecke/plitsch/'}
+2025-05-25 12:52:10,526 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67698112d987d/date-756542> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:11,632 [INFO] Parsing detail page for event: Nordic Walking
+2025-05-25 12:52:11,642 [INFO] Completed event data: {'Name': 'Nordic Walking', 'Art': 'Sport', 'Ort': 'Wanderparkplatz Waldhausweg/Meerwiesertalweg\nMeerwiesertalweg\n66123 Saarbrücken\nWanderparkplatz Waldhausweg/Meerwiesertalweg\nMeerwiesertalweg\n66123 Saarbrücken', 'Datum': '01.06.2025 - 11:00 Uhr bis 01.06.2025 - 13:00 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:12,571 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65cca3770b3d2/date-785590> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:13,678 [INFO] Parsing detail page for event: Musikfestspiele Saar "Einheit, Vielfalt und Freiheit"
+2025-05-25 12:52:13,681 [INFO] Completed event data: {'Name': 'Musikfestspiele Saar "Einheit, Vielfalt und Freiheit"', 'Art': 'Konzert', 'Ort': 'Verschiedene Veranstaltungsorte in Saarbrücken und dem Saarland\nVerschiedene Veranstaltungsorte in Saarbrücken und dem Saarland', 'Datum': '01.06.2025 - 11:00 Uhr', 'Telefon': '', 'Website': 'https://musikfestspielesaar.de/'}
+2025-05-25 12:52:14,594 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-62b2c2362f983/date-773004> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:15,702 [INFO] Parsing detail page for event: Führungen für Kinder mit dem Schlossgespenst
+2025-05-25 12:52:15,711 [INFO] Completed event data: {'Name': 'Führungen für Kinder mit dem Schlossgespenst', 'Art': 'Kinder und Jugend', 'Ort': 'Saarbrücker Schloss\nSchlossplatz\n66119 Saarbrücken\nSaarbrücker Schloss\nSchlossplatz\n66119 Saarbrücken', 'Datum': '01.06.2025 - 11:00 Uhr', 'Telefon': '+49 681 506-6006', 'Website': ''}
+2025-05-25 12:52:16,497 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-670886a6a1bd5/date-742496> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:17,603 [INFO] Parsing detail page for event: 8. Matinée – Lied der Nacht
+2025-05-25 12:52:17,609 [INFO] Completed event data: {'Name': '8. Matinée – Lied der Nacht', 'Art': 'Konzert', 'Ort': 'Congresshalle\nHafenstraße 12\n66111 Saarbrücken\nCongresshalle\nHafenstraße 12\n66111 Saarbrücken', 'Datum': '01.06.2025 - 11:00 Uhr bis 01.06.2025 - 13:00 Uhr', 'Telefon': '+49 681 4180-0', 'Website': 'https://www.ccsaar.de/events/8-matinee-lied-der-nacht/'}
+2025-05-25 12:52:18,631 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-66643beeb18a8/date-739528> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:19,741 [INFO] Parsing detail page for event: Willi Graf
+2025-05-25 12:52:19,753 [INFO] Completed event data: {'Name': 'Willi Graf', 'Art': 'Ausstellung', 'Ort': 'Deutsches Zeitungsmuseum\nAm Abteihof\n66787 Wadgassen\nDeutsches Zeitungsmuseum\nAm Abteihof\n66787 Wadgassen', 'Datum': '01.06.2025 - 10:00 Uhr bis 01.06.2025 - 16:00 Uhr', 'Telefon': '+49 6834 9423-0', 'Website': 'http://www.kulturbesitz.de'}
+2025-05-25 12:52:19,766 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6458cf99bd088/date-777331> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:20,872 [INFO] Parsing detail page for event: Wildpflanzen-Wanderung
+2025-05-25 12:52:20,878 [INFO] Completed event data: {'Name': 'Wildpflanzen-Wanderung', 'Art': 'Exkursion / Führung', 'Ort': 'Parkplatz Jagdschloss Karlsbrunn\nSchloßstraße  14\n66352 Großrosseln\nParkplatz Jagdschloss Karlsbrunn\nSchloßstraße  14\n66352 Großrosseln', 'Datum': '01.06.2025 - 10:00 Uhr bis 01.06.2025 - 13:00 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:21,435 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:21,551 [INFO] Parsing list page: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25
+2025-05-25 12:52:21,558 [INFO] Found 25 events on this page
+2025-05-25 12:52:21,558 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768572
+2025-05-25 12:52:21,559 [INFO] Extracted event: Till Neu - le bien et le mal, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67cab9979554e/date-772929
+2025-05-25 12:52:21,560 [INFO] Extracted event: Morning Flow in der nordischen Saunawelt, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6492b9f7398ed/date-784883
+2025-05-25 12:52:21,561 [INFO] Extracted event: Recreation des Gemüthes, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-662cbe3416edc/date-784851
+2025-05-25 12:52:21,561 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768917
+2025-05-25 12:52:21,563 [INFO] Extracted event: Filmreif – Niki de Saint Phalle, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6825c6d3e4112/date-784739
+2025-05-25 12:52:21,563 [INFO] Extracted event: Fütterung der Seehunde, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb86cb78408/date-769247
+2025-05-25 12:52:21,564 [INFO] Extracted event: Vernissage ’15 Jahre Augenblick‘, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6818830816ead/date-783513
+2025-05-25 12:52:21,564 [INFO] Extracted event: Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682719d0c3653/date-784888
+2025-05-25 12:52:21,565 [INFO] Extracted event: PC- und Smartphone-Stammtisch, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d42d661b632/date-783179
+2025-05-25 12:52:21,565 [INFO] Extracted event: Trommelworkshop - Afrikanischer Zauber, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65128d447ce19/date-773783
+2025-05-25 12:52:21,566 [INFO] Extracted event: Sein Kopf wurde verschleppt von einem gewaltigen Traum, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67efb75a65b4a/date-779366
+2025-05-25 12:52:21,566 [DEBUG] Filtered duplicate request: <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67efb75a65b4a/date-779366> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2025-05-25 12:52:21,566 [INFO] Extracted event: Toleranz in Comics & Graphic Novels, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6787c47aabc43/date-760887
+2025-05-25 12:52:21,567 [INFO] Extracted event: Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682719d0c3653/date-784889
+2025-05-25 12:52:21,567 [INFO] Extracted event: Wochenmarkt Dudweiler, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-5d4d1c37e76ac/date-778066
+2025-05-25 12:52:21,568 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768573
+2025-05-25 12:52:21,569 [INFO] Extracted event: Illegal. Street Art Graffiti 1960 – 1995, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65c761e9206df/date-764708
+2025-05-25 12:52:21,569 [INFO] Extracted event: Smartphone leicht gemacht – Tipps und Tricks, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67ebaf66ebe25/date-778692
+2025-05-25 12:52:21,570 [INFO] Extracted event: Till Neu - le bien et le mal, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67cab9979554e/date-772930
+2025-05-25 12:52:21,570 [INFO] Extracted event: Willi Graf, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-66643beeb18a8/date-739529
+2025-05-25 12:52:21,571 [INFO] Extracted event: Recreation des Gemüthes, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-662cbe3416edc/date-784852
+2025-05-25 12:52:21,571 [INFO] Extracted event: Fütterung der Pinguine, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768918
+2025-05-25 12:52:21,572 [INFO] Extracted event: Sanftes Yoga im Sitzen, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65f966dc14bdd/date-777693
+2025-05-25 12:52:21,572 [INFO] Extracted event: Fütterung der Seehunde, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb86cb78408/date-769248
+2025-05-25 12:52:21,573 [INFO] Extracted event: Kreativ im Frühling - Aquarellworkshop für Erwachsene, URL: https://tourismus.saarbruecken.de/veranstaltungs_detail/event-663a04dc389ea/date-778836
+2025-05-25 12:52:21,573 [INFO] Found next page: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=50
+2025-05-25 12:52:22,332 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-5d4d179fdd6db/date-778159> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:23,437 [INFO] Parsing detail page for event: Wochenmarkt St. Johann
+2025-05-25 12:52:23,442 [INFO] Completed event data: {'Name': 'Wochenmarkt St. Johann', 'Art': 'Markt', 'Ort': 'St. Johanner Markt\nSt. Johanner Markt\n66111 Saarbrücken\nSt. Johanner Markt\nSt. Johanner Markt\n66111 Saarbrücken', 'Datum': '02.06.2025 - 08:00 Uhr bis 02.06.2025 - 14:00 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:23,444 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6787c47aabc43/date-760887> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:24,555 [INFO] Parsing detail page for event: Toleranz in Comics & Graphic Novels
+2025-05-25 12:52:24,562 [INFO] Completed event data: {'Name': 'Toleranz in Comics & Graphic Novels', 'Art': 'Ausstellung', 'Ort': 'Stiftung Demokratie Saarland\nPolitische Akademie der SDS\nEuropaallee  18\n66113 Saarbrücken\nStiftung Demokratie Saarland\nPolitische Akademie der SDS\nEuropaallee  18\n66113 Saarbrücken', 'Datum': '10.03.2025 bis 18.07.2025', 'Telefon': '+49 681 906260', 'Website': 'https://stiftung-demokratie-saarland.de/projekte/ausstellungen/aktuelle-ausstellungen/toleranz-in-comics-graphic-novels'}
+2025-05-25 12:52:25,471 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6422e69fde2b9/date-770233> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:26,577 [INFO] Parsing detail page for event: Quattropole Swing Exchange
+2025-05-25 12:52:26,580 [INFO] Completed event data: {'Name': 'Quattropole Swing Exchange', 'Art': 'Tanz', 'Ort': 'Bel Étage\nSpielbank Saarbrücken\nDeutschmühlental\n66117 Saarbrücken\nBel Étage\nSpielbank Saarbrücken\nDeutschmühlental\n66117 Saarbrücken', 'Datum': '23.05.2025 - 19:30 Uhr bis 01.06.2025', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:27,473 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67efb75a65b4a/date-779366> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:28,583 [INFO] Parsing detail page for event: Sein Kopf wurde verschleppt von einem gewaltigen Traum
+2025-05-25 12:52:28,588 [INFO] Completed event data: {'Name': 'Sein Kopf wurde verschleppt von einem gewaltigen Traum', 'Art': 'Ausstellung', 'Ort': 'Saarländisches Künstlerhaus e.V.\nKarlstraße 1\n66111 Saarbrücken\nSaarländisches Künstlerhaus e.V.\nKarlstraße 1\n66111 Saarbrücken', 'Datum': '07.05.2025 - 19:00 Uhr bis 15.06.2025', 'Telefon': '+49 681 372485', 'Website': 'https://kuenstlerhaus-saar.de/klima-xl-teil-2-08-05-15-06-2025/'}
+2025-05-25 12:52:29,318 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67ecdf6ce6ea1/date-779092> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:30,422 [INFO] Parsing detail page for event: Hoffmanns Erzählungen "Les Contes d'Hoffmann"
+2025-05-25 12:52:30,426 [INFO] Completed event data: {'Name': 'Hoffmanns Erzählungen "Les Contes d\'Hoffmann"', 'Art': 'Oper', 'Ort': 'Saarländisches Staatstheater\nGroßes Haus\nSchillerplatz 1\n66111 Saarbrücken\nSaarländisches Staatstheater\nGroßes Haus\nSchillerplatz 1\n66111 Saarbrücken', 'Datum': '01.06.2025 - 18:00 Uhr', 'Telefon': '', 'Website': 'https://www.staatstheater.saarland/detail/hoffmanns-erzaehlungen'}
+2025-05-25 12:52:31,380 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6818830816ead/date-783512> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:32,491 [INFO] Parsing detail page for event: Vernissage ’15 Jahre Augenblick‘
+2025-05-25 12:52:32,499 [INFO] Completed event data: {'Name': 'Vernissage ’15 Jahre Augenblick‘', 'Art': 'Ausstellung', 'Ort': 'Haus der Ärzte\nFaktoreistraße 4\n66111 Saarbrücken\nHaus der Ärzte\nFaktoreistraße 4\n66111 Saarbrücken', 'Datum': '01.06.2025 - 17:00 Uhr bis 01.06.2025 - 20:00 Uhr', 'Telefon': '', 'Website': 'https://www.augenblick-ev.de/event/vernissage-15-jahre-augenblick/'}
+2025-05-25 12:52:33,488 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65c761e9206df/date-764797> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:34,590 [INFO] Parsing detail page for event: Illegal. Street Art Graffiti 1960 – 1995
+2025-05-25 12:52:34,596 [INFO] Completed event data: {'Name': 'Illegal. Street Art Graffiti 1960 – 1995', 'Art': 'Ausstellung', 'Ort': 'Historisches Museum Saar\nSchlossplatz  15\n66119 Saarbrücken\nHistorisches Museum Saar\nSchlossplatz  15\n66119 Saarbrücken', 'Datum': '01.06.2025 - 10:00 Uhr bis 01.06.2025 - 18:00 Uhr', 'Telefon': '+49 681 5064506', 'Website': 'http://www.historisches-museum.org'}
+2025-05-25 12:52:34,600 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-665735468646d/date-705463> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:35,706 [INFO] Parsing detail page for event: Gladiatoren
+2025-05-25 12:52:35,714 [INFO] Completed event data: {'Name': 'Gladiatoren', 'Art': 'Ausstellung', 'Ort': 'Museum für Vor- und Frühgeschichte\nSchlossplatz  16\n66119 Saarbrücken\nMuseum für Vor- und Frühgeschichte\nSchlossplatz  16\n66119 Saarbrücken', 'Datum': '01.06.2025 - 10:00 Uhr bis 01.06.2025 - 18:00 Uhr', 'Telefon': '+49 681 95405-0', 'Website': 'http://www.vorgeschichte.de'}
+2025-05-25 12:52:36,695 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6819ec8f04c27/date-783847> (referer: https://tourismus.saarbruecken.de/events?range_start=2025-06-01&range_end=2029-12-31)
+2025-05-25 12:52:37,806 [INFO] Parsing detail page for event: 3. Tier & Naturschutztag
+2025-05-25 12:52:37,814 [INFO] Completed event data: {'Name': '3. Tier & Naturschutztag', 'Art': 'Information', 'Ort': 'Deutsch-Französischer Garten\nDeutschmühlental\n66117 Saarbrücken\nDeutsch-Französischer Garten\nDeutschmühlental\n66117 Saarbrücken', 'Datum': '01.06.2025 - 10:00 Uhr', 'Telefon': '+49 681 905-2159', 'Website': 'http://www.saarbruecken.de/dfg'}
+2025-05-25 12:52:38,789 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768917> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:39,896 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:52:39,912 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '02.06.2025 - 14:30 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:40,939 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-662cbe3416edc/date-784851> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:42,046 [INFO] Parsing detail page for event: Recreation des Gemüthes
+2025-05-25 12:52:42,054 [INFO] Completed event data: {'Name': 'Recreation des Gemüthes', 'Art': 'Konzert', 'Ort': 'Musiksaal der Universität des Saarlandes\nGebäude C 5.1\nL252\n66123 Saarbrücken\nMusiksaal der Universität des Saarlandes\nGebäude C 5.1\nL252\n66123 Saarbrücken', 'Datum': '02.06.2025 - 13:00 Uhr bis 02.06.2025 - 13:30 Uhr', 'Telefon': '', 'Website': 'https://www.unimusik-saarland.de/termine/recreation-des-gemuethes'}
+2025-05-25 12:52:42,881 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-6492b9f7398ed/date-784883> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:43,989 [INFO] Parsing detail page for event: Morning Flow in der nordischen Saunawelt
+2025-05-25 12:52:43,996 [INFO] Completed event data: {'Name': 'Morning Flow in der nordischen Saunawelt', 'Art': 'Sport', 'Ort': 'Calypso Bade- und Saunawelt\nDeutschmühlental 7\n66117 Saarbrücken\nCalypso Bade- und Saunawelt\nDeutschmühlental 7\n66117 Saarbrücken', 'Datum': '02.06.2025 - 11:00 Uhr', 'Telefon': '+49 681 588177-0', 'Website': 'https://www.erlebnisbad-calypso.de/events-events-morning-flow.html'}
+2025-05-25 12:52:44,690 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67cab9979554e/date-772929> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:45,796 [INFO] Parsing detail page for event: Till Neu - le bien et le mal
+2025-05-25 12:52:45,802 [INFO] Completed event data: {'Name': 'Till Neu - le bien et le mal', 'Art': 'Ausstellung', 'Ort': 'Kulturverein Burbach e. V.\nBurbacher Straße 20\n66115 Saarbrücken\nKulturverein Burbach e. V.\nBurbacher Straße 20\n66115 Saarbrücken', 'Datum': '02.06.2025 - 10:00 Uhr bis 02.06.2025 - 17:00 Uhr', 'Telefon': '', 'Website': 'http://www.kulturverein-burbach.de'}
+2025-05-25 12:52:46,712 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768572> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:47,817 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:52:47,833 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '02.06.2025 - 09:00 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:47,833 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:52:47,834 [INFO] Closing spider (Test mode: maximum events reached)
+2025-05-25 12:52:48,636 [INFO] Crawled 33 pages (at 33 pages/min), scraped 0 items (at 0 items/min)
+2025-05-25 12:52:48,658 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-663a04dc389ea/date-778836> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:49,765 [INFO] Parsing detail page for event: Kreativ im Frühling - Aquarellworkshop für Erwachsene
+2025-05-25 12:52:49,767 [INFO] Completed event data: {'Name': 'Kreativ im Frühling - Aquarellworkshop für Erwachsene', 'Art': 'Seminar / Workshop', 'Ort': 'Bürgerhaus Dudweiler\nAm Markt 115\n66125 Saarbrücken\nBürgerhaus Dudweiler\nAm Markt 115\n66125 Saarbrücken', 'Datum': '03.06.2025 - 15:00 Uhr bis 03.06.2025 - 18:00 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:49,767 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:52:49,768 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb86cb78408/date-769248> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:50,873 [INFO] Parsing detail page for event: Fütterung der Seehunde
+2025-05-25 12:52:50,894 [INFO] Completed event data: {'Name': 'Fütterung der Seehunde', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '03.06.2025 - 15:00 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:50,894 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:52:52,507 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=50> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:52,615 [ERROR] Spider error processing <GET https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=50> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+Traceback (most recent call last):
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/utils/defer.py", line 73, in mustbe_deferred
+    result = f(*args, **kw)
+             ^^^^^^^^^^^^^^
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/core/spidermw.py", line 92, in _process_spider_input
+    return scrape_func(response, request, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/core/scraper.py", line 200, in call_spider
+    warn_on_generator_with_return_value(spider, callback)
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/utils/misc.py", line 258, in warn_on_generator_with_return_value
+    if is_generator_with_return_value(callable):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/site-packages/scrapy/utils/misc.py", line 242, in is_generator_with_return_value
+    tree = ast.parse(code)
+           ^^^^^^^^^^^^^^^
+  File "/Users/cetinozkul/anaconda3/lib/python3.11/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 101
+    )    )
+         ^
+SyntaxError: unmatched ')'
+2025-05-25 12:52:54,021 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65f966dc14bdd/date-777693> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:55,126 [INFO] Parsing detail page for event: Sanftes Yoga im Sitzen
+2025-05-25 12:52:55,131 [INFO] Completed event data: {'Name': 'Sanftes Yoga im Sitzen', 'Art': 'Sport', 'Ort': 'Stadtteiltreff "Haltestelle"\nBergstraße 6\n66115 Saarbrücken\nStadtteiltreff "Haltestelle"\nBergstraße 6\n66115 Saarbrücken', 'Datum': '03.06.2025 - 14:30 Uhr bis 03.06.2025 - 15:30 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:52:55,131 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:52:56,001 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb626888e87/date-768918> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:57,109 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:52:57,123 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '03.06.2025 - 14:30 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:52:57,124 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:52:57,936 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-662cbe3416edc/date-784852> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:52:59,044 [INFO] Parsing detail page for event: Recreation des Gemüthes
+2025-05-25 12:52:59,054 [INFO] Completed event data: {'Name': 'Recreation des Gemüthes', 'Art': 'Konzert', 'Ort': 'Musiksaal der Universität des Saarlandes\nGebäude C 5.1\nL252\n66123 Saarbrücken\nMusiksaal der Universität des Saarlandes\nGebäude C 5.1\nL252\n66123 Saarbrücken', 'Datum': '03.06.2025 - 13:00 Uhr bis 03.06.2025 - 13:30 Uhr', 'Telefon': '', 'Website': 'https://www.unimusik-saarland.de/termine/recreation-des-gemuethes'}
+2025-05-25 12:52:59,054 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:00,084 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-66643beeb18a8/date-739529> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:01,194 [INFO] Parsing detail page for event: Willi Graf
+2025-05-25 12:53:01,206 [INFO] Completed event data: {'Name': 'Willi Graf', 'Art': 'Ausstellung', 'Ort': 'Deutsches Zeitungsmuseum\nAm Abteihof\n66787 Wadgassen\nDeutsches Zeitungsmuseum\nAm Abteihof\n66787 Wadgassen', 'Datum': '03.06.2025 - 10:00 Uhr bis 03.06.2025 - 16:00 Uhr', 'Telefon': '+49 6834 9423-0', 'Website': 'http://www.kulturbesitz.de'}
+2025-05-25 12:53:01,206 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:01,930 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67cab9979554e/date-772930> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:03,036 [INFO] Parsing detail page for event: Till Neu - le bien et le mal
+2025-05-25 12:53:03,041 [INFO] Completed event data: {'Name': 'Till Neu - le bien et le mal', 'Art': 'Ausstellung', 'Ort': 'Kulturverein Burbach e. V.\nBurbacher Straße 20\n66115 Saarbrücken\nKulturverein Burbach e. V.\nBurbacher Straße 20\n66115 Saarbrücken', 'Datum': '03.06.2025 - 10:00 Uhr bis 03.06.2025 - 13:00 Uhr', 'Telefon': '', 'Website': 'http://www.kulturverein-burbach.de'}
+2025-05-25 12:53:03,041 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:04,081 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67ebaf66ebe25/date-778692> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:05,189 [INFO] Parsing detail page for event: Smartphone leicht gemacht – Tipps und Tricks
+2025-05-25 12:53:05,195 [INFO] Completed event data: {'Name': 'Smartphone leicht gemacht – Tipps und Tricks', 'Art': 'Seminar / Workshop', 'Ort': 'Stadtbibliothek Saarbrücken\nGustav-Regler-Platz 1\n66111  Saarbrücken\nStadtbibliothek Saarbrücken\nGustav-Regler-Platz 1\n66111  Saarbrücken', 'Datum': '03.06.2025 - 10:00 Uhr bis 03.06.2025 - 12:00 Uhr', 'Telefon': '+49 681 905-1717', 'Website': ''}
+2025-05-25 12:53:05,195 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:05,197 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65c761e9206df/date-764708> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:06,305 [INFO] Parsing detail page for event: Illegal. Street Art Graffiti 1960 – 1995
+2025-05-25 12:53:06,310 [INFO] Completed event data: {'Name': 'Illegal. Street Art Graffiti 1960 – 1995', 'Art': 'Ausstellung', 'Ort': 'Historisches Museum Saar\nSchlossplatz  15\n66119 Saarbrücken\nHistorisches Museum Saar\nSchlossplatz  15\n66119 Saarbrücken', 'Datum': '03.06.2025 - 10:00 Uhr bis 03.06.2025 - 18:00 Uhr', 'Telefon': '+49 681 5064506', 'Website': 'http://www.historisches-museum.org'}
+2025-05-25 12:53:06,310 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:06,313 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-64cb616f08e2e/date-768573> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:07,420 [INFO] Parsing detail page for event: Fütterung der Pinguine
+2025-05-25 12:53:07,434 [INFO] Completed event data: {'Name': 'Fütterung der Pinguine', 'Art': 'Weitere Angebote', 'Ort': 'Zoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken\nZoo Saarbrücken\nGraf-Stauffenberg-Straße 63\n66121 Saarbrücken', 'Datum': '03.06.2025 - 09:00 Uhr', 'Telefon': '+49 681 905-3600', 'Website': 'https://zoo.saarbruecken.de/'}
+2025-05-25 12:53:07,434 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:07,436 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-5d4d1c37e76ac/date-778066> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:08,544 [INFO] Parsing detail page for event: Wochenmarkt Dudweiler
+2025-05-25 12:53:08,549 [INFO] Completed event data: {'Name': 'Wochenmarkt Dudweiler', 'Art': 'Markt', 'Ort': 'Markt Dudweiler\nAm Markt\n66125 Saarbrücken-Dudweiler\nMarkt Dudweiler\nAm Markt\n66125 Saarbrücken-Dudweiler', 'Datum': '03.06.2025 - 08:00 Uhr bis 03.06.2025 - 14:00 Uhr', 'Telefon': '', 'Website': ''}
+2025-05-25 12:53:08,549 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:09,516 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682719d0c3653/date-784889> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:10,627 [INFO] Parsing detail page for event: Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage
+2025-05-25 12:53:10,631 [INFO] Completed event data: {'Name': 'Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage', 'Art': 'Ausstellung', 'Ort': 'Halle4\nFASE Coworking\nHalbergstraße   4\n66121  Saarbrücken\nHalle4\nFASE Coworking\nHalbergstraße   4\n66121  Saarbrücken', 'Datum': '03.06.2025 - 08:00 Uhr bis 03.06.2025 - 19:00 Uhr', 'Telefon': '', 'Website': 'https://aldona-ev.de/neues/'}
+2025-05-25 12:53:10,631 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:11,656 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-65128d447ce19/date-773783> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:12,765 [INFO] Parsing detail page for event: Trommelworkshop - Afrikanischer Zauber
+2025-05-25 12:53:12,773 [INFO] Completed event data: {'Name': 'Trommelworkshop - Afrikanischer Zauber', 'Art': 'Seminar / Workshop', 'Ort': 'Kultur- und Lesetreff Malstatt\nIm Knappenroth  2-4\n66113 Saarbrücken\nKultur- und Lesetreff Malstatt\nIm Knappenroth  2-4\n66113 Saarbrücken', 'Datum': '02.06.2025 - 18:30 Uhr bis 02.06.2025 - 20:30 Uhr', 'Telefon': '+49 681 905 6419', 'Website': 'https://www.saarbruecken.de/kultur/kultur_und_lesetreffs/kultur_und_lesetreff_malstatt'}
+2025-05-25 12:53:12,773 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:13,704 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-67d42d661b632/date-783179> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:14,813 [INFO] Parsing detail page for event: PC- und Smartphone-Stammtisch
+2025-05-25 12:53:14,818 [INFO] Completed event data: {'Name': 'PC- und Smartphone-Stammtisch', 'Art': 'Seminar / Workshop', 'Ort': 'welt:raum\nKatholisch-Kirch-Straße 5\n66111 Saarbrücken\nwelt:raum\nKatholisch-Kirch-Straße 5\n66111 Saarbrücken', 'Datum': '02.06.2025 - 18:00 Uhr bis 02.06.2025 - 20:00 Uhr', 'Telefon': '+49 681 8319452', 'Website': 'https://pcphonefit.de/Termin-Buchungsseite/'}
+2025-05-25 12:53:14,818 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:15,684 [DEBUG] Crawled (200) <GET https://tourismus.saarbruecken.de/veranstaltungs_detail/event-682719d0c3653/date-784888> (referer: https://tourismus.saarbruecken.de/events/?range_start=2025-06-01&range_end=2029-12-31&offset=25)
+2025-05-25 12:53:16,786 [INFO] Parsing detail page for event: Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage
+2025-05-25 12:53:16,792 [INFO] Completed event data: {'Name': 'Fotoausstellung "Sexworkers – Das ganz normale Leben" und Vernissage', 'Art': 'Ausstellung', 'Ort': 'Halle4\nFASE Coworking\nHalbergstraße   4\n66121  Saarbrücken\nHalle4\nFASE Coworking\nHalbergstraße   4\n66121  Saarbrücken', 'Datum': '02.06.2025 - 18:00 Uhr bis 02.06.2025 - 20:30 Uhr', 'Telefon': '', 'Website': 'https://aldona-ev.de/neues/'}
+2025-05-25 12:53:16,792 [INFO] Test mode: Reached maximum of 30 events. Stopping crawler.
+2025-05-25 12:53:16,900 [INFO] Scraped 45 events and saved to saarbruecken_events_2025.json
+2025-05-25 12:53:16,918 [INFO] Dumping Scrapy stats:
+{'downloader/request_bytes': 27415,
+ 'downloader/request_count': 49,
+ 'downloader/request_method_count/GET': 49,
+ 'downloader/response_bytes': 588979,
+ 'downloader/response_count': 49,
+ 'downloader/response_status_count/200': 49,
+ 'dupefilter/filtered': 2,
+ 'elapsed_time_seconds': 88.26477,
+ 'finish_reason': 'Test mode: maximum events reached',
+ 'finish_time': datetime.datetime(2025, 5, 25, 10, 53, 16, 898121),
+ 'httpcompression/response_bytes': 4802130,
+ 'httpcompression/response_count': 48,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 176,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 88391680,
+ 'memusage/startup': 68452352,
+ 'request_depth_max': 2,
+ 'response_received_count': 49,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 48,
+ 'scheduler/dequeued/memory': 48,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'spider_exceptions/SyntaxError': 1,
+ 'start_time': datetime.datetime(2025, 5, 25, 10, 51, 48, 633351)}
+2025-05-25 12:53:16,919 [INFO] Spider closed (Test mode: maximum events reached)

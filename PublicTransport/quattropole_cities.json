@@ -1,0 +1,62 @@
+{
+  "description": "Quattropole Cities - Grenzüberschreitende Städtekooperation",
+  "website": "https://www.quattropole.org/",
+  "cities": {
+    "trier": {
+      "name": "Trier",
+      "country": "Deutschland",
+      "country_code": "DE",
+      "bbox": {
+        "south": 49.7200,
+        "west": 6.6200,
+        "north": 49.7800,
+        "east": 6.6800
+      },
+      "center": [6.6500, 49.7500],
+      "population": 110000,
+      "transport_authority": "VRT / SWT"
+    },
+    "luxembourg": {
+      "name": "Luxembourg",
+      "country": "Luxemburg",
+      "country_code": "LU",
+      "bbox": {
+        "south": 49.5800,
+        "west": 6.1000,
+        "north": 49.6500,
+        "east": 6.1800
+      },
+      "center": [6.1400, 49.6150],
+      "population": 125000,
+      "transport_authority": "AVL / RGTR"
+    },
+    "metz": {
+      "name": "Metz",
+      "country": "Frankreich",
+      "country_code": "FR",
+      "bbox": {
+        "south": 49.1000,
+        "west": 6.1500,
+        "north": 49.1400,
+        "east": 6.2100
+      },
+      "center": [6.1800, 49.1200],
+      "population": 120000,
+      "transport_authority": "TAMM"
+    },
+    "saarbruecken": {
+      "name": "Saarbrücken",
+      "country": "Deutschland", 
+      "country_code": "DE",
+      "bbox": {
+        "south": 49.2200,
+        "west": 6.9500,
+        "north": 49.2600,
+        "east": 7.0100
+      },
+      "center": [6.9800, 49.2400],
+      "population": 180000,
+      "transport_authority": "Saarbahn / VVS"
+    }
+  }
+} 

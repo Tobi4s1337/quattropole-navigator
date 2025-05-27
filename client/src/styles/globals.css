@@ -1,0 +1,45 @@
+/* Basic Reset & Tailwind Base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+@layer base {
+  body {
+    @apply bg-background text-foreground min-h-dvh;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom Scrollbar for Webkit Browsers */
+  ::-webkit-scrollbar {
+    width: 8px; /* Thinner scrollbar */
+    height: 8px; /* For horizontal scrollbars if any */
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent; /* Transparent track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/50 rounded-full; /* Primary color with opacity, rounded */
+    border: 2px solid theme('colors.background'); /* Border matching background for a "floating" feel */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/70; /* Darker on hover */
+  }
+  
+  /* For Firefox - more limited styling but can set colors */
+  /* This might need to be adjusted based on theme for dark/light mode consistency */
+  * {
+    scrollbar-width: thin; /* "auto" or "thin" */
+    scrollbar-color: theme('colors.primary / 0.5') theme('colors.background'); /* thumb and track */
+  }
+}
+
+/* Additional global styles or component overrides can go here */
+
+/* Specific override for HeroSection SelectTrigger height */
+.category-select-trigger-override {
+  height: 48px !important;
+} 
